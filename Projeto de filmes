@@ -1,0 +1,76 @@
+</a>
+            <a href="https://youtu.be/zn7Tr3iv0xI?si=kYRRDkBdirOLdFTY">
+                <img src="https://images.app.goo.gl/JEgZRhdV2qPLacym7" />
+            </a>
+            <a href="https://youtu.be/Ga8ZkXpfXN8?si=qRhZQrZx4nMqPR5r">
+                <img src="https://images.app.goo.gl/LUL5GsEvd74RsQmFA" />
+            </a>
+            <a href="https://youtu.be/Dy-DL6qxu7Y?si=DEfOwE9sUXlofikv">
+                <img src="https://images.app.goo.gl/9RYLfzXXYJH5fddh6" />
+            </a>
+        </div>
+    </section>
+
+</body>
+
+</html>
+body {
+    color: white;
+    background: blue;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(226, 226, 226);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+}
+
+.chamada {
+    background: rgb(245, 5, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 25px;
+    padding-right: 22px;
+    margin-top: 60px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(255, 255, 255);
+}
