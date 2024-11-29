@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Movie Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 1em;
+    }
+
+    .movie {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin: 1em;
+      padding: 1em;
+      text-align: center;
+      width: 200px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .movie img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .movie h3 {
+      font-size: 1.2em;
+      margin: 0.5em 0;
+    }
+
+    .movie a {
+      display: inline-block;
+      text-decoration: none;
+      color: #fff;
+      background-color: #007BFF;
+      padding: 0.5em 1em;
+      border-radius: 3px;
+    }
+
+    .movie a:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1em 0;
+      background-color: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Free Movie Gallery</h1>
+  </header>
+  <main>
+    <div class="gallery">
+      <div class="movie">
+        <img src="https://via.placeholder.com/200x300" alt="Movie Poster">
+        <h3>Movie Title 1</h3>
+        <a href="https://www.youtube.com/watch?v=EXAMPLE" target="_blank">Watch Now</a>
+      </div>
+      <div class="movie">
+        <img src="https://via.placeholder.com/200x300" alt="Movie Poster">
+        <h3>Movie Title 2</h3>
+        <a href="https://www.youtube.com/watch?v=EXAMPLE2" target="_blank">Watch Now</a>
+      </div>
+      <!-- Add more movies here -->
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Free Movie Gallery</p>
+  </footer>
+</body>
+</html>
